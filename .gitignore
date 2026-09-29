@@ -1,0 +1,22 @@
+# 构建产物
+.gradle/
+build/
+app/build/
+dist/
+*.log
+
+# 本机与 IDE 配置
+local.properties
+.idea/
+*.iml
+.kotlin/
+
+# 签名密钥：机密，绝不入库
+keystore/*.jks
+keystore/*.keystore
+keystore/keystore.properties
+
+# 本地工具产物（编辑器符号索引 / 构建日志）
+.ext_dict.json
+.import_index.json
+.last_build.txt

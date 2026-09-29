@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  标记：一道亭檐压着一轮落日，下面两道水面。
+  笔画刻意收得细、留白留得多，走清晨淡雾蓝的清新感；两道水面是必须的——
+  只有一道时，屋脊 + 圆点 + 单线会被读成一只眼睛。
+  所有极值点距圆心最大 30.83，在自适应图标安全圆（半径 33）内，任何遮罩都切不到。
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 亭檐 -->
+    <path
+        android:fillColor="#FF4E7189"
+        android:pathData="M24,50C36,41 46,31 54,31C62,31 72,41 84,50L79,55C69,48 61,38 54,38C47,38 39,48 29,55Z" />
+
+    <!-- 落日，落在檐下 -->
+    <path
+        android:fillColor="#FFD88C62"
+        android:pathData="M46.5,49A7.5,7.5 0 1,0 61.5,49A7.5,7.5 0 1,0 46.5,49Z" />
+
+    <!-- 两道水面 -->
+    <path
+        android:fillColor="#FFFBFCFD"
+        android:pathData="M26,63.5h56v3.4h-56zM35,71h38v3h-38z" />
+</vector>

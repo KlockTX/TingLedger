@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 主题图标层：只保留形状，颜色由系统着色 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M24,50C36,41 46,31 54,31C62,31 72,41 84,50L79,55C69,48 61,38 54,38C47,38 39,48 29,55Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M46.5,49A7.5,7.5 0 1,0 61.5,49A7.5,7.5 0 1,0 46.5,49Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M26,63.5h56v3.4h-56zM35,71h38v3h-38z" />
+</vector>
